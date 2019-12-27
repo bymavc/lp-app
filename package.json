@@ -1,0 +1,47 @@
+{
+  "name": "sdk-checkout",
+  "version": "1.0.0",
+  "description": "Modern Javascript Checkout Project",
+  "main": "index.js",
+  "scripts": {
+    "build:prod": "webpack --mode production",
+    "build:dev": "webpack-dev-server"
+  },
+  "author": "bymavc",
+  "license": "MIT",
+  "dependencies": {
+    "@glidejs/glide": "3.4.1",
+    "bootstrap": "4.4.1",
+    "core-js": "3.6.0",
+    "handlebars": "4.5.3",
+    "jquery": "3.4.1",
+    "nanobar": "0.4.2",
+    "popper.js": "1.16.0",
+    "regenerator-runtime": "0.13.3",
+    "vanilla-router": "^1.2.7"
+  },
+  "devDependencies": {
+    "@babel/core": "7.7.7",
+    "@babel/plugin-proposal-class-properties": "7.7.4",
+    "@babel/preset-env": "7.7.7",
+    "@fortawesome/fontawesome-svg-core": "1.2.26",
+    "@fortawesome/free-brands-svg-icons": "5.12.0",
+    "@fortawesome/free-regular-svg-icons": "5.12.0",
+    "@fortawesome/free-solid-svg-icons": "5.12.0",
+    "babel-loader": "8.0.6",
+    "clean-webpack-plugin": "3.0.0",
+    "css-loader": "3.4.0",
+    "fibers": "4.0.2",
+    "handlebars-loader": "1.7.1",
+    "html-webpack-plugin": "3.2.0",
+    "mini-css-extract-plugin": "0.9.0",
+    "node-sass": "4.13.0",
+    "optimize-css-assets-webpack-plugin": "5.0.3",
+    "sass": "1.24.0",
+    "sass-loader": "8.0.0",
+    "terser-webpack-plugin": "2.3.1",
+    "webpack": "4.41.4",
+    "webpack-cli": "3.3.10",
+    "webpack-dev-server": "3.10.1"
+  }
+}
